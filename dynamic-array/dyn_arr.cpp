@@ -102,7 +102,7 @@ template <typename T> class dynArr {
 		void remove(T item) {
 			for (int i = 0; i < size_; i++) {
 				if (arr_[i] == item) {
-					deleteEl(i); // O(n^2), 0(n)?
+					deleteEl(i); // O(n^2), 0(n)??
 				}
 			}
 		}
